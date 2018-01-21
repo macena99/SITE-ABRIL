@@ -1,0 +1,133 @@
+.menu{
+    margin: 0; 
+    padding: 30px;
+    background-color:red;
+	font-family: Open Sans;
+    font-size: 20px;
+    list-style:none;
+    border:1px solid red;  
+    float:left;
+    width: 100%;
+  
+}
+
+.menu li{
+    position:relative; 
+    float:left; 
+    border-right:1px solid red; 
+}
+
+.menu li a{
+    color:white; 
+    text-decoration:none; 
+    padding:10px 15px; 
+    display:block; 
+}
+
+.menu li a:hover{
+    background:black; 
+    color:white; 
+}
+
+.menu li  ul{
+    z-index: 99;
+    position:absolute; 
+    left:0; 
+    display:none; 
+} 
+    
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    background-color: red;
+    border:1px solid #000; 
+    display:block; 
+    width:150px;
+}
+
+.menu2{
+    margin: 0; 
+    padding: 0;
+    background-color:black;
+	font-family: Open Sans;
+    font-size: 11px;
+    list-style:none;
+    border:1px solid black;  
+    float:left;
+    width: 100%;
+  
+}
+
+.menu2 li{
+    position:relative; 
+    float:left; 
+    border-right:1px solid black; 
+}
+
+.menu2 li a{
+    color:white; 
+    text-decoration:none; 
+    padding:10px 38px; 
+    display:block; 
+}
+
+#logo{
+    float: right;
+    margin-right: 50px;
+}
+
+#pesquisa{
+    font-family: Ubuntu;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#lupa{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#direita{
+    float: right;
+}
+
+#direita2{
+    margin-top: -299px;
+    float: right;
+}
+
+#titulo{
+    font-size: 18px;
+    font-family: Ubuntu;
+}
+
+#info{
+    font-size: 17px;
+    font-family: Open Sans;
+}
+
+#art1{
+    float: left;
+}
+
+#art2{
+    float: right;
+    margin-right: 820px;
+    margin-top: -120px;
+}
+
+#art3{
+    float: right;
+    margin-right: 445px;
+    margin-top: -120px;
+}
+
+#art4{
+    float: right;
+    margin-right: 40px;
+    margin-top: -120px;
+}
